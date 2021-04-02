@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>MUSE</title><!--rename this appropriately-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+     <link rel="stylesheet" href="styles.css">  <!--insert a link to the stylesheet provided in the root folder you downloaded-->
+  </head>
+
+  <body>
+    <header>
+      <h1>  SIMULATION THEORY<!-- insert a headline for your favorite band or movie --></h1>
+      <img src="images/MuseLogo400.jpg" alt="Muselogo"><!-- insert <img> element, link to the a small
+          version of the band/movie logo. You can either find an existing logo for the band/movie or create one of your own-->
+
+    </header>
+
+    <main>
+      <article>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EYdFLiXarHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Band or Actors?<!--insert a tagline for your band/movie --></h2>
+
+        <p>Have you ever seen a band that has put together such a great album trailer that it feels like a movie trailer? Well this is just that! Tune in for Muse new album -<b>Simulation Theory</b><!--write a paragraph hyping your band/movie--></p>
+
+        <p>Click on the images below to find more information about the band/movie.</p>
+      </article>
+
+      <div class="further-info">
+
+        <!--insert an href within the link below that references the band/movie's actual website-->
+        <figure>
+        <a href="https://www.muse.mu/film?ref=https://www.google.com/">
+          <img srcset="images/simulationtheory400.jpg 400w,
+             images/simulationtheory1200.jpg 1200w"
+     sizes="(max-width: 1200px) 400px,
+            1200px"
+     src="images/simulationtheory1200.jpg"
+     alt="simulation theory">
+          <figcaption>About us</figcaption></a><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+      </figure>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called tour.html or screens.html if you are creating a movie site. this new page should include, at a minimum, an HTML table that gives your band's tour dates and locations or locations and times where your movie is screening-->
+        <figure>
+        <a href="tour.html">
+          <img srcset="images/musetour400.jpg 400w,
+             images/musetour1200.jpg 1200w"
+     sizes="(max-width: 1200px) 400px,
+            1200px"
+     src="images/musetour1200.jpg"
+     alt="muse tour picture">
+     <figcaption>Tour Dates</figcaption></a><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+      </figure>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called fans.html. this new page should include, at a minimum, an HTML form that would allow a user to enter their personal information to sign up for a fan club for your band or movie. Don't forget a Submit button! Note that these forms don't have to actually collect the information that is entered. This would require technology that is beyond the scope of this course-->
+        <figure>
+        <a href="fans.html">
+          <img srcset="images/museband400.jpg 400w,
+             images/museband1200.jpg 1200w"
+     sizes="(max-width: 1200px) 400px,
+            1200px"
+     src="images/museband1200.jpg"
+     alt="band picture">
+     <figcaption> Join the fanclub!</figcaption></a><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'Join the fanclub!'-->
+      </figure>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="closing-image">
+        <picture>
+    <source srcset="images/muse1200.jpg"
+            media="(min-width: 400px)">
+    <img src="images/muse400.jpg" alt="muse" />
+</picture>
+        <!-- insert picture element with an image that is appropriate for large devices and one that is cropped to show an important detail for mobile devices (see the Responsive Images lesson for an example)-->
+      </div>
+
+    </main>
+  </body>
+</html>
